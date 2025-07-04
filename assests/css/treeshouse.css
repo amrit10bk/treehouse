@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family:"Quicksand", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    align-items: center;
+}
+
+.navleft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.treehouse-icon{
+    width: 100px;
+    height: auto;
+}
+
+.navleft a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+
+.signin{
+    color: grey;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.signin:hover{
+    color: #7dc0fa;
+}
+
+.freetrial{
+    color: white;
+    border: solid 1px #00778c;
+    border-radius: 5px;
+    background-color:#00778c;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+.freetrial:hover{
+    background-color: #004552;
+    color: white;
+    border: 1px solid #004552 ;
+}
+
+.firstdiv{
+    margin: 10vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.firstleft{
+    display: flex;
+    flex-direction: column;
+}
+
+.learn{
+    margin-top: 0vh;
+}
+.free{
+    margin-top: 10vh;
+}
+.orange{
+    color: #ed7f35;
+}
+
+.emailget{
+    margin-top: 3vh;
+}
+
+.joinnow{
+    color: white;
+    background-color: #40484a;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px;
+    
+    border: solid 1px #40484a ;
+    border-radius: 5px;
+}
+
+.email{
+    border: 2px solid #d2d8dc;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+}
+
+.email:hover{
+    border: solid 2px #8c9aa6;
+}
+
